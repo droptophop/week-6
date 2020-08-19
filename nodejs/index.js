@@ -1,4 +1,21 @@
+// variables
+
+var hello = 'hello js with var'; // variable, document/function scope
+let hello2 = 'hello js with let'; // variable, block scope
+const hello3 = 'hello js with const'; // constant, block scope
+
+// console.log(hello);
+// console.log(hello2);
+// console.log(hello3);
+
+// hoisting -  only works with var
+hoistVar = 'h';
+// console.log(hoistVar);
+
+var hoistVar = 'hoisting with var';
+
 // scopes 
+
 /*
  - window scope: browser
  - document scope: tab/page
